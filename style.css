@@ -1,0 +1,301 @@
+* { 
+    box-sizing : border-box ; 
+    padding : 0 ; 
+    margin : 0 ; 
+    font-family : helvetica ; 
+    color : white ; 
+}
+
+body, html { 
+    min-height : 100vh ; 
+    width : 100% ; 
+}
+
+#main { 
+    height : 100% ; 
+    width : 100% ; 
+}
+
+#top { 
+    width : 100% ; 
+    min-height :  60vh ; 
+    background-image : url(https://images.unsplash.com/photo-1547570456-0e4070952418?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ; 
+    background-size : cover ; 
+    background-position : 0% 84% ; 
+}
+
+#overlay { 
+    position : relative ;  
+    min-height : inherit ; 
+    width : 100% ; 
+    background-color: rgba(0, 0, 0, 0.219) ; 
+}
+
+#text { 
+    width : 100% ;  
+    position : absolute ; 
+    bottom : 20% ; 
+    padding : 0 10vw ; 
+    color : white ; 
+    text-transform : uppercase ; 
+    display : flex ; 
+    justify-content : space-between ; 
+    align-items : center ; 
+} 
+
+#text > h1 { 
+    font-size : 5vw ; 
+    line-height : 0.8
+}
+
+#text-right > h1 { 
+    font-size : 1vw ;
+    width : 40% ; 
+}
+
+#text-right { 
+    width : 50% ; 
+    display : flex ; 
+    justify-content : space-between ; 
+    align-items : center ; 
+}
+
+#text-right > #icons > i { 
+    font-size : 1.3vw ; 
+}
+
+
+#bottom { 
+    display : flex ; 
+    width : 100% ; 
+    min-height : 40vh ; 
+    background-color : teal ; 
+}
+
+#b-1 { 
+    height : inherit ; 
+    width : 25% ; 
+    background-color : yellow ; 
+}
+
+#b-1 > #info {
+    height : 100% ; 
+    width : 100% ; 
+    background-color : black ; 
+    padding : 2vw ;
+    text-transform : uppercase ;  
+}
+
+#b-1 > #info > p { 
+    padding : 1vw 0vw ; 
+    width : 70% ; 
+}
+
+
+#b-2 { 
+    min-height : inherit ; 
+    width : 25% ; 
+    position : relative ; 
+}
+
+#b-2 > i{ 
+    position : absolute ; 
+    z-index : 9 ;
+    font-size : 5vw ; 
+    color : white ; 
+    top : 50% ; 
+    left : 50% ; 
+    transform : translate( -50% , -50% ) ; 
+}
+
+#b-2 > #background-image {
+    min-height : inherit ; 
+    width : 100% ; 
+    background-image : url(https://images.unsplash.com/photo-1724071524074-4b57c698d068?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ; 
+    background-size : cover ; 
+    background-position : bottom ; 
+    transform : scaleX(-1) ; 
+}
+
+
+#b-3 { 
+    min-height : inherit ; 
+    width : 25% ; 
+    background-color : pink ; 
+}
+
+#b-3top {
+    height : 30% ; 
+    width : 100% ; 
+    background-color : black ; 
+    position : relative ; 
+}
+
+#b-3 > #b-3top > h3 { 
+    font-size : 2.5vw ; 
+    text-transform : uppercase ;   
+    position : absolute ;
+    width : 100% ;   
+    top : 50% ; 
+    left : 50% ; 
+    transform : translate( -50% , -50% ) ; 
+    text-align : center ; 
+}
+
+#b-3bottom {
+    height : 70% ;  
+    width : 100% ; 
+    background-image : url(https://images.unsplash.com/photo-1613082190644-f2e21566342e?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ; 
+    background-size : cover ; 
+    background-position : 0% 65% ; 
+    transform : scaleX(-1)
+}
+
+
+#b-4 { 
+    height : inherit ; 
+    width : 25% ; 
+    background-color : black ; 
+}
+
+#b-4 > #box {
+    padding : 2vw 2vw; 
+    text-transform : uppercase ; 
+}
+
+#b-4 > #box > #customers { 
+    height : 100% ; 
+    width : 100% ; 
+    margin-top : 2vw ; 
+    display : flex ; 
+    justify-content : space-between ; 
+    align-items : center ; 
+}
+
+
+#b-4 > #box > #customers > #about {
+    width : 80% ;  
+}
+
+#b-4 > #box > #customers > #photo {
+    width : 3.5vw ; 
+    height : 3.5vw ; 
+    border-radius : 50% ; 
+    background-image : url(https://images.unsplash.com/photo-1648183185045-7a5592e66e9c?q=80&w=2488&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ; 
+    background-size : cover ; 
+    background-position : 0% 100% ; 
+}
+
+#b-4 > #box > #customers-2 { 
+    height : 100% ; 
+    width : 100% ; 
+    margin-top : 2vw ; 
+    display : flex ; 
+    justify-content : space-between ; 
+    align-items : center ; 
+}
+
+
+#b-4 > #box > #customers-2 > #about-2 {
+    width : 80% ;  
+}
+
+#b-4 > #box > #customers-2 > #photo-2 {
+    width : 3.5vw ; 
+    height : 3.5vw ; 
+    border-radius : 50% ; 
+    background-image : url(https://images.unsplash.com/photo-1727160930825-97245483a509?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ; 
+    background-size : cover ; 
+    background-position : top ; 
+}
+
+@media(max-width: 500px) { 
+    #text {
+        flex-direction : column ;  
+    }
+
+    #text > h1 {
+        font-size : 10vw ; 
+    }
+
+    #text-right { 
+        flex-direction : column ; 
+        align-items : flex-start ;  
+        width : initial ;  
+    }
+
+    #text-right > h1 {
+        font-size : 3vw ; 
+        width : initial ; 
+        margin-top : 20px ; 
+    }
+
+    #text-right > #icons { 
+        width : 100% ;  
+        align-items : flex-start ;
+        margin-top : 27px ;   
+    }
+
+    #text-right > #icons > i {
+        font-size : 7vw ; 
+    } 
+    
+    #bottom {
+        flex-direction : column ; 
+    } 
+
+    #b-1 {
+        width : 100% ; 
+    } 
+
+    #b-1 > #info { 
+        padding : 10vw 5dvw  ; 
+    }
+
+    #b-1 > #info > p { 
+        width : 100% ;          
+    }
+    
+    #b-2 {
+        width : 100% ; 
+    } 
+
+    #b-2 > i { 
+        font-size : 15vw ; 
+    }
+    
+    #b-3 {
+        width : 100% ; 
+    }
+
+    #b-3 > #b-3top { 
+        height : 10vh ;  
+    }
+
+    #b-3 > #b-3top > h3 {
+        font-size : 10vw ; 
+    }
+
+    #b-3 > #b-3bottom { 
+        height : 30vh ; 
+    }
+    
+    #b-4 {
+        width : 100% ; 
+    } 
+
+    #b-4 > #box { 
+        padding : 7vw 5vw ; 
+    }
+
+    #b-4 > #box > #customers > #photo { 
+        height : 11vw ; 
+        width : 11vw ; 
+    }
+
+    
+    #b-4 > #box > #customers-2 > #photo-2 { 
+        height : 11vw ; 
+        width : 11vw ; 
+    }
+}
